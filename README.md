@@ -1,7 +1,7 @@
 ![image_calendar](https://github.com/user-attachments/assets/9856031a-35d2-4483-88c8-d340f4da3d98)
 
 # AiCalendar (Vue or Quasar)
-Customizable and stylized calendar with events. It is compatible with Vue and is suitable as an alternative to q-date from Quasar.
+Customizable and stylized calendar with events. It is compatible with Vue and is suitable as an alternative to q-date from Quasar.</br>
 Настраиваемый и стилизованный календарь с событиями. Он совместим с Vue и подходит в качестве альтернативы q-data от Quasar.
 # Versions / Версии
 vue:  <b>^3.0</b> </br>
@@ -27,11 +27,11 @@ npm i ai-calendar
 | swipable | boolean | Can I scroll through? If the <b>value is true</b>, then you can swipe on computers and smartphones. By default, the property has the value <b>true</b> | Можно пролистывать? Если значение <b>true</b>, то можно свайпить на компьютерах и смартфонах. По дефолту свойство имеет значение <b>true</b> |
 
 # Connection example / Пример подключения
-Минимальный тип с дефолтными свойствами:
+Minimal with default properties / Минимальный тип с дефолтными свойствами:
 ```vue
 <ai-calendar/>
 ```
-Старый синтаксис без "setup"
+Old syntax without "setup" / Старый синтаксис без "setup"
 ```vue
 <template>
   <ai-calendar
@@ -60,6 +60,7 @@ export default {
 };
 </script>
 ```
+New syntax for setup (Composition API). An example with many properties.<br>
 Новый синтаксис setup (Composition API). Пример с множеством свойств.
 ```vue
 <template>
