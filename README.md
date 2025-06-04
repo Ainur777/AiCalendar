@@ -34,6 +34,7 @@ Minimal with default properties / Минимальный тип с дефолт�
 Old syntax without "setup" / Старый синтаксис без "setup"
 ```vue
 <template>
+<div style="width: 100%; max-width: 450px; margin: 0 auto;">
   <ai-calendar
     :events="[
       { date: '2023-11-15', color: '#FF9800' },
@@ -43,6 +44,7 @@ Old syntax without "setup" / Старый синтаксис без "setup"
     :events-colors="['#FFA726', '#66BB6A', '#EF5350']"
     @date-selected="handleDateSelection"
   />
+</div>
 </template>
 
 <script>
@@ -64,7 +66,8 @@ New syntax for setup (Composition API). An example with many properties.<br>
 Новый синтаксис setup (Composition API). Пример с множеством свойств.
 ```vue
 <template>
-  <ai-calendar
+<div style="width: 100%; max-width: 450px; margin: 0 auto;">
+ <ai-calendar
     :events="events"
     :events-colors="eventsColors"
     :locale="locale"
@@ -72,6 +75,7 @@ New syntax for setup (Composition API). An example with many properties.<br>
     :icon-right="icon-right"
     @date-selected="handleDateSelection"
   />
+</div>
 </template>
 <script setup>
 import { defineProps, defineEmits } from 'vue';
