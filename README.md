@@ -49,7 +49,7 @@ Old syntax without "setup" / Старый синтаксис без "setup"
 
 <script>
 import AiCalendar from 'ai-calendar';
-
+import 'ai-calendar/dist/ai-calendar.css'
 export default {
   components: {
     AiCalendar
@@ -80,7 +80,7 @@ New syntax for setup (Composition API). An example with many properties.<br>
 <script setup>
 import { defineProps, defineEmits } from 'vue';
 import AiCalendar from 'ai-calendar';
-
+import 'ai-calendar/dist/ai-calendar.css'
 // Определяем props
 const props = defineProps({
   events: {
