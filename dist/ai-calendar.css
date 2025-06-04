@@ -1,0 +1,114 @@
+
+.flat-button[data-v-ced4ed82] {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+.flat-button[data-v-ced4ed82]:hover {
+  background-color: #f0f0f0;
+}
+.calendar-container[data-v-ced4ed82] {
+  width: 100%;
+  max-width: 100%;
+  padding: 5px 24px 4px 24px;
+  #font-family: Arial, sans-serif;
+}
+.calendar-header[data-v-ced4ed82] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.month-year-selectors[data-v-ced4ed82] {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  justify-content: center;
+}
+.month-year-selectors select[data-v-ced4ed82] {
+  appearance: none;
+  background: transparent;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.week-days[data-v-ced4ed82] {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 8px;
+}
+.day-label[data-v-ced4ed82] {
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  padding: 8px 0;
+}
+.calendar-wrapper[data-v-ced4ed82] {
+  overflow: hidden;
+}
+.calendar-grid[data-v-ced4ed82] {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  min-height: 300px;
+}
+.calendar-day[data-v-ced4ed82] {
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  color: #333;
+}
+.day-number[data-v-ced4ed82] {
+  position: relative;
+  z-index: 1;
+  font-size: 0.9em;
+}
+.calendar-day[data-v-ced4ed82]:hover {
+  background-color: #f0f0f0;
+}
+.calendar-day.prev-month[data-v-ced4ed82],
+.calendar-day.next-month[data-v-ced4ed82] {
+  color: #bbb;
+}
+.calendar-day.today[data-v-ced4ed82] {
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  #background-color: #e3f2fd;
+  #color: #1976d2;
+}
+.calendar-day.has-event[data-v-ced4ed82] {
+  font-weight: bold;
+}
+@keyframes slideLeft-ced4ed82 {
+from { transform: translateX(0); opacity: 1;
+}
+to { transform: translateX(-100%); opacity: 0.5;
+}
+}
+@keyframes slideRight-ced4ed82 {
+from { transform: translateX(0); opacity: 1;
+}
+to { transform: translateX(100%); opacity: 0.5;
+}
+}
+.slide-left-enter-active[data-v-ced4ed82] {
+  animation: slideLeft-ced4ed82 0.3s ease-in-out;
+}
+.slide-right-enter-active[data-v-ced4ed82] {
+  animation: slideRight-ced4ed82 0.3s ease-in-out;
+}
+
