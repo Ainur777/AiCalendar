@@ -1,5 +1,4 @@
-![image_calendar](https://github.com/user-attachments/assets/9856031a-35d2-4483-88c8-d340f4da3d98)
-
+![image_calendar2](https://github.com/user-attachments/assets/9cdeef99-a993-4f0b-a9d5-1131d6f3307b)
 # AiCalendar (Vue or Quasar)
 Customizable and stylized calendar with events. It is compatible with Vue and is suitable as an alternative to q-date from Quasar.</br>
 Настраиваемый и стилизованный календарь с событиями. Он совместим с Vue и подходит в качестве альтернативы q-data от Quasar.
